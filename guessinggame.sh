@@ -1,6 +1,9 @@
+#!/usr/bin/env bash
+
 function file_count {
 	ls | wc -l
 }
+
 	user_count=-1
 	correct_count=$( file_count )
 
@@ -15,6 +18,6 @@ function file_count {
 		then
 			echo "You guessed too few of files. Please try again"
 		else
-			echo "You guess too many files. Please try again"
+			echo "You guessed too many files. Please try again"
 		fi
 	done

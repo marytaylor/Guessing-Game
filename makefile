@@ -1,4 +1,5 @@
-
+README.md: guessinggame.sh
+	touch README.md
 	echo "# Guessing Game" > README.md
 	echo "Final Project for The Unix Workbench course on Coursera" >> README.md
 	echo "Created by ([Mary Taylor](https://github.com/marytaylor))" >> README.md
